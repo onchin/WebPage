@@ -1,51 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
+        <title>O'Brien Chin</title>
+        <link rel="stylesheet" href="personalwebsite.css">
 
-    <title>O'Brien Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="firstStyles.css">
-    <link href="main.css" rel="stylesheet" type="text/css" media="screen,projection" >
-</head>
-<body>
+        <style>
+            header {
+                background-color: transparent;
+                text align: left;
+                padding: 15px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                position: center;
+            }
+            li {
+                float: right;
+		        display: block;
+                padding: 10px;
+            }
+            a {
+                color:black;
+            }
+            a:hover {
+                background-color: powderblue;
+                font-
+            }
+            body {
+                background-image: url("everest.jpg");
+                background-repeat: no-repeat;
+                background-position: center-top;
+                background-size: cover;
+            }
+            section {
+                height: 50px;
+                width: 400px;
+                background: transparent;
 
-<br>
-<br>
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -300px;
+                margin-left: -200px;
+            }
+            div {
+               height: 50px;
+                width: 350px;
+                background: transparent;
 
-<h1>Personal WebPage for O'Brien Chin</h1>
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -100px;
+                margin-left: -200px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 125%;
+
+            }
+            h1:before, h1:after {
+                background-color: #333;
+                content: "";
+                display: inline-block;
+                height: 1px;
+                position: relative;
+                vertical-align: middle;
+                width: 50%;
+            }
+            h1:before {
+                right: 0.5em;
+                margin-left: -50%;
+            }
+            h1:after {
+                left: 0.5em;
+                margin-right: -50%;
+            }
+            h2 {
+                text-align: center;
+                font-size: 250%;
+            }
+
+            .quote {
+	            font-size: 100%;
+	            text-align: left;
+            }
+            .signature {
+	            font-size: 60%;
+	            text-align: right;
+            }
 
 
-<br>
-<br>
-  <div id="wrapper">
-      <section>
-
-              <img class="myimage" src="040.jpg"/>
-            <br>
-            <p>
-                I am currently attending UNO pursuing a Masters degree in MIS, I am looking to break
-                into the technology field. When paired with my experience and education in the
-                Actuarial profession, I bring to the table a combination of skills that are not
-                easily found among my fellow technology professionals.
-            </p>
-            <br>
-            <br>
-            <hr>
-
-            <p>
-            Please click <a href="Skills.html"><small><i>here</i></small></a> to see my skills
-            </p>
+        </style>
 
 
+    </head>
 
-      </section>
-  </div>
+    <body>
+        <header>
+            <ul>
+                <li><a href="childhood.html">Childhood</a></li>
+                <li><a href="military.html">Military</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="website.html">Home</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <h1><span>Personal Webpage</span></h1>
+            <h2>O'Brien N. Chin</h2>
+        </section>
+        <div class = "quote">
+            <h3 >
+                Heights by great men reached and kept,
+                were not attained by sudden flight,
+            </h3>
+            <h3>
+                But they, while their companions slept,
+                were upwards toiling through the night.
+            </h3>
+            <h3 class = "signature">
+                <br>
+                -Henry Wadsworth Longfellow
+            </h3>
+        </div>
+    </body>
 
 
-
-
-
-
-</body>
 </html>
